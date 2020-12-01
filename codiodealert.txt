@@ -1,0 +1,95 @@
+  @override
+  // void initState() {
+  //   super.initState();
+  //   WidgetsBinding.instance.addPostFrameCallback((_) async {
+  //     await showDialog(
+  //         context: context,
+  //         barrierDismissible: false,
+  //         builder: (context) {
+  //           return AlertDialog(
+  //               shape: RoundedRectangleBorder(
+  //                   borderRadius: BorderRadius.circular(20)),
+  //               title: Text("Seleccione Empresa de Transporte"),
+  //               content: Column(
+  //                 mainAxisSize: MainAxisSize.min,
+  //                 children: <Widget>[
+  //                   Row(
+  //                     children: <Widget>[
+  //                       Column(
+  //                         children: <Widget>[
+  //                           RaisedButton(
+  //                               elevation: elevations,
+  //                               child: Icon(
+  //                                 Icons.bus_alert,
+  //                                 size: 90,
+  //                               ),
+  //                               onPressed: () {
+  //                                 Navigator.of(context).pop(AlertDialog());
+  //                                 setState(() {
+  //                                   rutabus = "Transmecar";
+  //                                   print(rutabus);
+  //                                 });
+  //                               })
+  //                         ],
+  //                       ),
+  //                       SizedBox(
+  //                         width: 20,
+  //                       ),
+  //                       Column(
+  //                         children: <Widget>[
+  //                           Column(
+  //                             children: <Widget>[
+  //                               RaisedButton(
+  //                                   elevation: elevations,
+  //                                   child: Icon(
+  //                                     Icons.bus_alert,
+  //                                     size: 90,
+  //                                   ),
+  //                                   onPressed: () {})
+  //                             ],
+  //                           ),
+  //                         ],
+  //                       )
+  //                     ],
+  //                   ),
+  //                   SizedBox(
+  //                     height: 20,
+  //                   ),
+  //                   Row(
+  //                     children: <Widget>[
+  //                       Column(
+  //                         children: <Widget>[
+  //                           RaisedButton(
+  //                               elevation: elevations,
+  //                               child: Icon(
+  //                                 Icons.bus_alert,
+  //                                 size: 90,
+  //                               ),
+  //                               onPressed: () {})
+  //                         ],
+  //                       ),
+  //                       SizedBox(
+  //                         width: 20,
+  //                       ),
+  //                       Column(
+  //                         children: <Widget>[
+  //                           Column(
+  //                             children: <Widget>[
+  //                               RaisedButton(
+  //                                   elevation: elevations,
+  //                                   child: Icon(
+  //                                     Icons.bus_alert,
+  //                                     size: 90,
+  //                                   ),
+  //                                   onPressed: () {})
+  //                             ],
+  //                           ),
+  //                         ],
+  //                       )
+  //                     ],
+  //                   )
+  //                 ],
+  //               ));
+  //         });
+  //   });
+  // }
